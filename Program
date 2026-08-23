@@ -1,0 +1,20 @@
+# include <stdio.h>
+int main() {
+    int a,b;
+printf("Enter a : ");
+scanf("%d",&a);
+printf("Enter b : ");
+scanf("%d",&b);
+printf("Addition = %d\n",a+b);
+printf("Substraction = %d\n",a-b);
+printf("Multiplication = %d\n",a*b);
+if(b!=0)
+{
+    printf("Division = %d\n",a/b);
+}
+else
+{
+    printf("Not define");
+}
+return 0;
+}
