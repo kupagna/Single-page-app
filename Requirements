@@ -1,0 +1,64 @@
+Seat Booking System – Requirements
+Case 1: New Booking
+
+1.Check whether all 2 seats are already booked or not.
+2.Ask the user to enter the seat number.
+3.Accept only Seat 1 or Seat 2.
+4.Check whether the selected seat is already booked.
+5.Ask the user to enter their name.
+6.Accept names containing alphabets and spaces only.
+7.Reject names containing numbers or special characters.
+8.Ask the user to enter their age.
+9.Accept numbers only for age.
+10.Age should be greater than 0.
+11.Ask the user to enter their 10-digit phone number.
+12.Phone number should start with 6, 7, 8, or 9.
+13.Store the booking details according to the selected seat.
+14.Increase the number of booked seats.
+15.Display a successful booking message.
+16.Display the number of available seats.
+
+Case 2: Cancel Booking
+
+1.Check whether any booking is available.
+2.Ask the user to enter their seat number.
+3.Accept only Seat 1 or Seat 2.
+4.Check whether the selected seat is actually booked.
+5.Ask the user to enter their registered phone number.
+6.Verify the phone number with the phone number used during booking.
+7.Allow cancellation only when the phone number matches.
+8.Mark the selected seat as available after cancellation.
+9.Decrease the number of booked seats.
+10.Display a booking cancelled successfully message.
+11.Display the number of available seats.
+
+Case 3: View Booking
+
+1.Check whether any booking is available.
+2.Ask the user to enter their seat number.
+3.Accept only Seat 1 or Seat 2.
+4.Check whether the selected seat is booked.
+5.Ask the user to enter their registered phone number.
+6.Verify the phone number with the stored phone number.
+7.If the phone number matches, display:
+Name
+Age
+Phone Number
+Seat Number
+8.If the phone number does not match, display an invalid phone number message.
+
+Case 0: Quit
+
+Exit the Seat Booking System.
+Display a Thank You message.
+
+Default Case
+
+If the user enters an option other than 0, 1, 2, or 3, the program should:
+Display Invalid choice message.
+Ask the user to select a valid option again.
+Main Menu
+1. New Booking
+2. Cancel Booking
+3. View Booking
+0. Quit
